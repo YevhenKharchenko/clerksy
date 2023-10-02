@@ -1,0 +1,459 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: #163a24;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Domine", serif;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1210px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ====================HEADER==================== */
+
+.header {
+  background-color: #163a24;
+}
+.header-logo-link {
+}
+.header-btn-log {
+  color: #fbfaf7;
+  text-align: right;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-address {
+}
+.header-address-link {
+  color: #fbfaf7;
+  text-align: right;
+  line-height: normal;
+  font-style: normal;
+}
+.header-btn-start {
+  color: #fbfaf7;
+  text-align: right;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-main-title {
+  color: #fbfaf7;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.36;
+}
+.header-text {
+  color: #fbfaf7;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* ============================================== */
+
+/* ====================PARTNERS==================== */
+
+.partners {
+}
+.partners-img-hat {
+}
+
+.partners-title-first {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.13;
+}
+
+.partners-text-first {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.partners-title-second {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.13;
+}
+
+.partners-text-second {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.partners-img-football {
+}
+
+.partners-title-third {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.13;
+}
+
+.partners-list {
+}
+.partners-list-item {
+}
+
+/* ================================================ */
+
+/* ====================FEATURES==================== */
+
+.features {
+  background-color: #163a24;
+}
+
+.features-title {
+  color: #fbfaf7;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.13;
+}
+
+.features-list {
+}
+.features-list-item {
+}
+.features-img-message {
+}
+
+.features-item-text {
+  color: #fbfaf7;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.features-img-shield {
+}
+
+.features-img-cabinet {
+}
+
+.features-img-face {
+}
+
+/* ================================================ */
+
+/* ====================EMPLOYEES==================== */
+
+.employees {
+  background-color: #f2efe6;
+}
+
+.employees-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.13;
+}
+
+.employees-text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.employees-img {
+}
+
+/* ================================================= */
+
+/* ====================PROGRAMS==================== */
+
+.programs {
+}
+
+.programs-title-first {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.13;
+}
+
+.programs-text-first {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.programs-img {
+}
+
+.programs-title-second {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.13;
+}
+
+.programs-text-second {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.programs-list {
+}
+.programs-list-item {
+}
+.programs-img-shield {
+}
+
+.programs-item-title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.13;
+}
+
+.programs-sublist {
+}
+.programs-sublist-item {
+}
+
+.programs-sublist-text {
+  line-height: normal;
+}
+
+.programs-img-star {
+}
+.programs-img-dandruff {
+}
+
+/* ================================================ */
+
+/* ====================PLANS==================== */
+
+.plans {
+  background-color: #f2efe6;
+}
+
+.plans-title {
+  text-align: center;
+  font-size: 47px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.plans-text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.plans-list {
+}
+.plans-list-item {
+}
+
+.plans-item-text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.plans-text-time {
+  text-align: center;
+  font-family: Domine;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.13;
+}
+
+.plans-btn {
+  color: #fbfaf7;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* ============================================= */
+
+/* ====================EBOOK==================== */
+
+.ebook {
+}
+
+.ebook-title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.13;
+}
+
+.ebook-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.ebook-btn {
+  color: #fbfaf7;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ebook-img {
+}
+
+/* ============================================= */
+
+/* ====================START==================== */
+
+.start {
+  background-color: #163a24;
+}
+
+.start-title {
+  color: #fbfaf7;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.13;
+}
+
+.start-text {
+  color: #fbfaf7;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.start-btn {
+  color: #163a24;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* ============================================= */
+
+/* ====================SIGN==================== */
+
+.sign {
+  background-color: #f2efe6;
+}
+
+.sign-title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.13;
+}
+
+.sign-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.sign-form {
+}
+.sign-input {
+}
+
+.sign-btn {
+  color: #fbfaf7;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sign-text-privacy {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.sign-link {
+  color: #198c36;
+  text-align: right;
+  font-family: Noto Sans;
+  font-size: 14px;
+  line-height: normal;
+}
+
+/* ============================================ */
+
+/* ====================FOOTER==================== */
+
+.footer {
+}
+.footer-logo-link {
+}
+
+.footer-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.footer-soc-list {
+}
+.footer-soc-item {
+}
+.footer-soc-link {
+}
+
+.footer-text-c {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-list {
+}
+.footer-list-item {
+}
+
+.footer-item-link {
+  color: #198c36;
+  text-align: right;
+  font-size: 14px;
+  line-height: normal;
+}
+
+/* ============================================== */
