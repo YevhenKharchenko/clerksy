@@ -23,14 +23,20 @@
   <body>
     <header class="header">
       <div class="container">
-        <a class="header-logo-link" href="./index.html"
-          ><img src="./images/logo.png" alt="Clerksy logo"
-        /></a>
-        <button class="header-btn-log" type="button">Log In</button>
-        <address class="header-address">
-          <a class="header-address-link" href="tel:+8443326440">844-332-6440</a>
-        </address>
-        <button class="header-btn-start" type="button">Get Started</button>
+        <div class="header-top">
+          <a class="header-logo-link" href="./index.html"
+            ><img src="./images/logo.png" alt="Clerksy logo"
+          /></a>
+          <div class="header-second-part">
+            <a class="header-link-log" href="">Log In</a>
+            <address class="header-address">
+              <a class="header-address-link" href="tel:+8443326440"
+                >844-332-6440</a
+              >
+            </address>
+            <button class="header-btn-start" type="button">Get Started</button>
+          </div>
+        </div>
         <h1 class="header-main-title">
           Running the show has never been so easy.
         </h1>
@@ -44,39 +50,82 @@
     <main>
       <section class="partners">
         <div class="container">
-          <img
-            class="partners-img-hat"
-            src="./images/bubble-hat.png"
-            alt="Girl in hat"
-            width="492"
-            height="510"
-          />
-          <h2 class="partners-title-first">Put the human back in HR.</h2>
-          <p class="partners-text-first">
-            Your employees are the real stars. Show the love and help them
-            perform!
-          </p>
-          <h2 class="partners-title-second">
-            You don’t have to play all the parts.
-          </h2>
-          <p class="partners-text-second">
-            Sales, accounting, HR— Oh My! You can’t do it all - let Clerksy
-            help.
-          </p>
-          <img
-            class="partners-img-football"
-            src="./images/bubble-football.png"
-            alt="Football player"
-            width="492"
-            height="423"
-          />
+          <div class="partners-hat-container">
+            <img
+              class="partners-img-hat"
+              src="./images/bubble-hat.png"
+              alt="Girl in hat"
+              width="492"
+              height="510"
+            />
+            <div class="partners-hat-text">
+              <h2 class="partners-title-first">Put the human back in HR.</h2>
+              <p class="partners-text-first">
+                Your employees are the real stars. Show the love and help them
+                perform!
+              </p>
+            </div>
+          </div>
+          <div class="partners-football-container">
+            <div class="partners-football-text">
+              <h2 class="partners-title-second">
+                You don’t have to play all the parts.
+              </h2>
+              <p class="partners-text-second">
+                Sales, accounting, HR— Oh My! You can’t do it all - let Clerksy
+                help.
+              </p>
+            </div>
+            <img
+              class="partners-img-football"
+              src="./images/bubble-football.png"
+              alt="Football player"
+              width="492"
+              height="423"
+            />
+          </div>
           <h2 class="partners-title-third">We partner with the best</h2>
           <ul class="partners-list">
-            <li class="partners-list-item">stripe</li>
-            <li class="partners-list-item">google</li>
-            <li class="partners-list-item">notion</li>
-            <li class="partners-list-item">gusto</li>
-            <li class="partners-list-item">aircall</li>
+            <li class="partners-list-item">
+              <img
+                src="./images/stripe.png"
+                alt="Stripe logo"
+                width="110"
+                height="51"
+              />
+            </li>
+            <li class="partners-list-item">
+              <img
+                src="./images/google.png"
+                alt="Google logo"
+                width="110"
+                height="36"
+              />
+            </li>
+            <li class="partners-list-item">
+              <img
+                src="./images/notion.png"
+                alt="Notion logo"
+                width="110"
+                height="59"
+              />
+            </li>
+            <li class="partners-list-item">
+              <img
+                src="./images/gusto.png"
+                alt="Gusto logo"
+                width="110"
+                height="45"
+              />
+            </li>
+            <li class="partners-list-item">
+              <img
+                src="./images/aircall.png"
+                alt="Aircall logo"
+                width="110"
+                height="37"
+              />
+            </li>
           </ul>
         </div>
       </section>
@@ -143,6 +192,7 @@
             resolve any on set-conflicts and make sure you are compliant with
             work and safety boards.
           </p>
+
           <img
             class="employees-img"
             src="./images/group-of-people.png"
@@ -155,18 +205,22 @@
 
       <section class="programs">
         <div class="container">
-          <h2 class="programs-title-first">How the scenes fit together</h2>
-          <p class="programs-text-first">
-            Employee Training & Development, Diversity & Inclusion Programs, and
-            Conflict Resolution.
-          </p>
-          <img
-            class="programs-img"
-            src="./images/bubble-characters.png"
-            alt="Girl and grandmother"
-            width="492"
-            height="423"
-          />
+          <div class="programs-grandmother">
+            <div class="programs-grandmother-text">
+              <h2 class="programs-title-first">How the scenes fit together</h2>
+              <p class="programs-text-first">
+                Employee Training & Development, Diversity & Inclusion Programs,
+                and Conflict Resolution.
+              </p>
+            </div>
+            <img
+              class="programs-img"
+              src="./images/bubble-characters.png"
+              alt="Girl and grandmother"
+              width="492"
+              height="423"
+            />
+          </div>
           <h2 class="programs-title-second">
             Consider everyone's best interest
           </h2>
@@ -182,7 +236,7 @@
                 width="62"
                 height="75"
               />
-              <h3 class="programs-item-title">Protect Your Company</h3>
+              <h3 class="programs-item-title shield">Protect Your Company</h3>
               <ul class="programs-sublist">
                 <li class="programs-sublist-item">
                   <p class="programs-sublist-text">
@@ -203,7 +257,7 @@
                 width="83"
                 height="75"
               />
-              <h3 class="programs-item-title">
+              <h3 class="programs-item-title star">
                 Set Your Employees Up For Success
               </h3>
               <ul class="programs-sublist">
@@ -229,7 +283,7 @@
                 width="82"
                 height="75"
               />
-              <h3 class="programs-item-title">
+              <h3 class="programs-item-title dandruff">
                 Know Your Industry's Legal Landscape
               </h3>
               <ul class="programs-sublist">
@@ -256,21 +310,25 @@
           </p>
           <ol class="plans-list">
             <li class="plans-list-item">
-              <p class="plans-item-text">
+              <p class="plans-item-text five-minutes">
                 Fill out a form and tell us what you're looking for:
               </p>
               <p class="plans-text-time">5 minutes</p>
             </li>
             <li class="plans-list-item">
-              <p class="plans-item-text">
+              <p class="plans-item-text twenty-four-hours">
                 Time it will take a Clerksy rep to follow up:
               </p>
               <p class="plans-text-time">24 hours</p>
             </li>
             <li class="plans-list-item">
-              <p class="plans-item-text">
-                Take advantage of our monthly plans starting at:
-              </p>
+              <img
+                class="plans-img"
+                src="./images/monthly-plans.png"
+                alt=""
+                width="290"
+                height="183"
+              />
             </li>
           </ol>
           <button class="plans-btn" type="button">
@@ -281,9 +339,11 @@
 
       <section class="ebook">
         <div class="container">
-          <h2 class="ebook-title">Not just another HR resource.</h2>
-          <p class="ebook-text">Simple. Entertaining. Informative.</p>
-          <button class="ebook-btn" type="button">Download E-book</button>
+          <div class="ebook-text-container">
+            <h2 class="ebook-title">Not just another HR resource.</h2>
+            <p class="ebook-text">Simple. Entertaining. Informative.</p>
+            <button class="ebook-btn" type="button">Download E-book</button>
+          </div>
           <img
             class="ebook-img"
             src="./images/bubble-book.png"
@@ -306,62 +366,87 @@
 
       <section class="sign">
         <div class="container">
-          <h2 class="sign-title">Stay up to date!</h2>
-          <p class="sign-text">Sign up for the latest Clerksy news.</p>
-          <form class="sign-form" action="">
-            <input class="sign-input" type="text" /><label for=""></label
-            ><button class="sign-btn" type="submit">Sign Up</button>
-          </form>
-          <p class="sign-text-privacy">
-            By submitting your email you agree to receive updates about Clerksy.
-            You can unsubscribe at any time. View our full
-            <a class="sign-link" href="">Privacy Policy</a>
-          </p>
+          <div class="sign-first">
+            <h2 class="sign-title">Stay up to date!</h2>
+            <p class="sign-text">Sign up for the latest Clerksy news.</p>
+          </div>
+          <div class="sign-second">
+            <form class="sign-form" action="">
+              <input
+                class="sign-input"
+                type="email"
+                name="email"
+                id="email"
+              /><label for="email"></label
+              ><button class="sign-btn" type="submit">Sign Up</button>
+            </form>
+            <p class="sign-text-privacy">
+              By submitting your email you agree to receive updates about
+              Clerksy. You can unsubscribe at any time. View our full
+              <a class="sign-link" href="">Privacy Policy</a>.
+            </p>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="footer">
       <div class="container">
-        <a class="footer-logo-link" href="./index.html"
-          ><img src="./images/logo-footer.png" alt="Footer logo"
-        /></a>
-        <h2 class="footer-title">A people company.</h2>
-        <ul class="footer-soc-list">
-          <li class="footer-soc-item">
-            <a class="footer-soc-link" href="">fb</a>
-          </li>
-          <li class="footer-soc-item">
-            <a class="footer-soc-link" href="">twi</a>
-          </li>
-          <li class="footer-soc-item">
-            <a class="footer-soc-link" href="">in</a>
-          </li>
-          <li class="footer-soc-item">
-            <a class="footer-soc-link" href="">insta</a>
-          </li>
-        </ul>
-        <p class="footer-text-c">
-          © 2020 Clerksy, Inc. Clerksy is a registered trademark of Clerksy,
-          Inc.
-        </p>
-        <ul class="footer-list">
-          <li class="footer-list-item">
-            <a class="footer-item-link" href="">Privacy Policy</a>
-          </li>
-          <li class="footer-list-item">
-            <a class="footer-item-link" href="">Terms of Service</a>
-          </li>
-          <li class="footer-list-item">
-            <a class="footer-item-link" href="">GDPR</a>
-          </li>
-          <li class="footer-list-item">
-            <a class="footer-item-link" href="">Careers</a>
-          </li>
-          <li class="footer-list-item">
-            <a class="footer-item-link" href="">Press Kit</a>
-          </li>
-        </ul>
+        <div class="footer-first">
+          <a class="footer-logo-link" href="./index.html"
+            ><img src="./images/logo-footer.png" alt="Footer logo"
+          /></a>
+          <h2 class="footer-title">A people company.</h2>
+          <ul class="footer-soc-list">
+            <li class="footer-soc-item">
+              <a class="footer-soc-link" href=""
+                ><svg class="footer-icon" width="13" height="24">
+                  <use href="./images/icons.svg#icon-Facebook"></use></svg
+              ></a>
+            </li>
+            <li class="footer-soc-item">
+              <a class="footer-soc-link" href=""
+                ><svg class="footer-icon" width="30" height="28">
+                  <use href="./images/icons.svg#icon-Twitter"></use></svg
+              ></a>
+            </li>
+            <li class="footer-soc-item">
+              <a class="footer-soc-link" href=""
+                ><svg class="footer-icon" width="30" height="28">
+                  <use href="./images/icons.svg#icon-Linkedin"></use></svg
+              ></a>
+            </li>
+            <li class="footer-soc-item">
+              <a class="footer-soc-link" href=""
+                ><svg class="footer-icon" width="25" height="25">
+                  <use href="./images/icons.svg#icon-Instagram"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-second">
+          <p class="footer-text-c">
+            © 2020 Clerksy, Inc. Clerksy is a registered trademark of Clerksy,
+            Inc.
+          </p>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a class="footer-item-link" href="">Privacy Policy</a>
+            </li>
+            <li class="footer-list-item">
+              <a class="footer-item-link" href="">Terms of Service</a>
+            </li>
+            <li class="footer-list-item">
+              <a class="footer-item-link" href="">GDPR</a>
+            </li>
+            <li class="footer-list-item">
+              <a class="footer-item-link" href="">Careers</a>
+            </li>
+            <li class="footer-list-item">
+              <a class="footer-item-link" href="">Press Kit</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
