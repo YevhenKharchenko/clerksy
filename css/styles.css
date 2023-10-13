@@ -52,11 +52,17 @@ button {
 
 .header {
   background-color: #163a24;
+}
+
+.header-background-container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 20px;
   padding-bottom: 129px;
   background-image: url(../images/base-stars-swirls.png);
   background-repeat: no-repeat;
-  background-position: bottom right 300px;
+  background-position: bottom right 80px;
 }
 
 .header-top {
@@ -591,6 +597,12 @@ button {
 
 .start {
   background-color: #163a24;
+}
+
+.start-background-container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 114px;
   padding-bottom: 124px;
   background-image: url(../images/leafs-left.png),
